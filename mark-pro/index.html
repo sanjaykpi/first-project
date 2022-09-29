@@ -7,41 +7,60 @@
     <title>mark project</title>
 </head>
 <body>
-    <div class="container">
-    <label for="">Operation
-        <select name="" id="operation">
-            <option value="">Choose One</option>
-            <option value="add">Addition</option>
-            <option value="sub">Subtraction</option>
-            <option value="multi">Multiplication</option>
-            <option value="division">Division</option>
-            
-        </select>
+<section class="container">
+    <section class="inner-cont">
+        <div class="head">
+            <div class="single-range">
+                <div class="lab">
+                    <label for="operation">Operation</label>
+                </div>
+                
+                <div class="sel">
+                    <select name="operation" id="operation">
+                        <option value="">Choose Any One</option>
+                        <option value="add">Addition</option>
+                        <option value="sub">Subtraction</option>
+                        <option value="multiplication">Multiplication</option>
+                        <option value="division">Division</option>
+                    </select>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="single-range">
+                <div class="lab">
+                    <label for="range">Range</label>
+                </div>
+                    
+                <div class="sel">
+                    <select name="range" id="range">
+                        <option value="">Choose Any One</option>
+                        <option value="9">1 to 9</option>
+                        <option value="19">1 to 19</option>
+                        <option value="29">1 to 29</option>
+                        <option value="39">1 to 39</option>
+                        <option value="49">1 to 49</option>
+                        <option value="99">1 to 99</option>
 
-    </label>
-
-    <label for="">Range
-        <select name="" id="range">
-            <option value="">Choose one</option>
-            <option value="9">1-9</option>
-            <option value="19">1-19</option>
-            <option value="29">1-29</option>
-            <option value="39">1-39</option>
-            <option value="99">1-99</option>
-            
-        </select>
-
-    </label>
-    <button id="start">Start</button>
-</div>
-<div class="problem">
-   <h3>10</h3>
-   <h3>+</h3>
-   <h3>15</h3>
-   <hr>
-   <input type="text">
-   <hr>
-</div>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="problem">
+                <div class="problems"></div>
+            </div>
+            <div  class="single-btn">
+                <div class="btn1">
+                    <button id="start">Start</button>
+                </div>
+                
+                <div class="btn2">
+                    <button id="calculate" disabled>Calculate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
     <script src="./script.js"></script>
 </body>
 </html>
